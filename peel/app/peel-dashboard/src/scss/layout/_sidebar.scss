@@ -1,0 +1,90 @@
+.navigation{
+	background-color: #2D2D2D;
+	width: 220px;
+	height: 100%;
+	
+	
+	.logo{
+		width: 220px;
+		height: 110px;
+		position: relative;
+		background-color: #2D2D2D;
+	}
+	.separate{
+		height: 15px;
+	}
+	.force-center{
+		left: 50%;
+		top: 50%;
+		position: absolute;
+		-webkit-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+	}
+	.search{
+		border: 0;
+		outline: 0;
+		background: url(/images/icon-search.png) no-repeat scroll 7px 50%;
+		padding-left:30px;
+		background-color: #252525;
+		border: 1px solid #1D1D1D;
+		width: 100%;
+		height: 50px;
+		color:#a2a2a2;
+		
+	}
+	.navigation-links{
+		.navigation-link {
+			color:#FFF;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-around;
+			height: 40px;
+			.navigation-link-icon{
+				flex: 1 40px;
+				position: relative;
+			}
+			.navigation-link-text{
+				flex: 1 calc(100% - 40px);
+				padding-top: 10px;
+				position: relative;
+			}
+			.icon-pink{
+				width: 15px;
+				height: 15px;
+				display: block;
+				background-color: #FA81FB;
+			}
+			.icon-cyan{
+				width: 15px;
+				height: 15px;
+				display: block;
+				background-color: #5DFBFD;
+			}
+			.icon-green{
+				width: 15px;
+				height: 15px;
+				display: block;
+				background-color: #B5FFA5;
+			}
+			.icon-yellow{
+				width: 15px;
+				height: 15px;
+				display: block;
+				background-color: #FEFE6A;
+			}
+			.icon-blue{
+				width: 15px;
+				height: 15px;
+				display: block;
+				background-color: #947FF9;
+			}
+			.icon-red{
+				width: 15px;
+				height: 15px;
+				display: block;
+				background-color: #FF6B4F;
+			}
+		}
+	}
+
+}
